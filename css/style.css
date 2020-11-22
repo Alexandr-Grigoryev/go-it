@@ -1,4 +1,15 @@
-body{
-    background-color: #fff;
+body {
+  font-family: 'Montserrat', sans-serif;
 }
-
+.my-element {
+  color: rgb(243, 14, 14);
+}
+.my-element1 {
+  color: rgb(38, 25, 212);
+}
+.my-element2 {
+  color: rgb(1, 255, 14);
+}
+.compani-1 {
+  background: indianred;
+}
