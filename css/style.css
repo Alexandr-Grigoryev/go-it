@@ -1,15 +1,71 @@
 body {
   font-family: 'Montserrat', sans-serif;
 }
-.my-element {
-  color: rgb(243, 14, 14);
+
+/* Tech Skills*/
+
+.Tech-Skills-container {
+  background: rgb(206, 115, 63);
+  width: 407px;
+  /*
+  padding-left: 100px;
+  padding-top: 40px;
+  padding-right: 40px;
+  */
+  padding: 40px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  text-align: center;
 }
-.my-element1 {
-  color: rgb(38, 25, 212);
+
+.Tech-Skills-title {
+  font-size: 30px;
+  font-weight: 700;
 }
-.my-element2 {
-  color: rgb(1, 255, 14);
+
+.my-tech-skills-element {
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
 }
+
+/*flex box*/
+
+.Work-experience-container {
+  display: flex;
+  flex-direction: column;
+}
+
+/*Compani 1*/
+
 .compani-1 {
   background: indianred;
+  width: 407px;
+
+  /*
+  padding-left: 40px;
+  padding-top: 40px;
+  */
+
+  box-sizing: border-box;
+  margin-top: 20px;
+}
+/*Compani 2*/
+.compani-2 {
+  background-color: lightblue;
+  width: 407px;
+
+  /*
+  padding-left: 70px;
+  padding-top: 100px;
+  */
+  box-sizing: border-box;
+  margin-top: 20px;
+  padding: 40px;
+}
+
+.my-element2 {
+  color: rgba(255, 0, 0, 0.938);
 }
